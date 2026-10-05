@@ -1,4 +1,4 @@
-# Release contents — 2026-10-01
+# Release contents — prepared 2026-10-01; uploaded 2026-10-05
 
 This source-and-aggregate release was prepared after completion of the frozen experiment. It is separate from the owner's private working archive. It contains no new inference, threshold tuning or manuscript.
 
@@ -28,4 +28,6 @@ No GPU inference was rerun for packaging. No clean-room reproduction of private 
 
 ## Publication state
 
-The GitHub-ready archive is prepared locally. A remote upload is still pending GitHub installation/connection. No repository URL, commit or successful upload is claimed until remote contents can be checked. Detailed teaching is deferred until before paper writing at the user's request; it is not a prerequisite for this practical release.
+The audited package is uploaded to the owner's private repository at https://github.com/assanalismagulov3-glitch/mammography-reliability. On October 5, all 126 original files downloaded from commit `1bc39f08896bdb6fbbb8dc001247be3b2475f2a0` matched the audited local stage byte-for-byte. All 125 release-manifest digests and all 32 frozen scientific digests passed. See `validation/github_upload_verification_20261005.json` for the archive checksum and scope.
+
+The October 5 documentation update adds that verification record and updates the hosting state and checksum manifest; it does not alter frozen scientific files or original results. This is a private repository upload, not a public publication. Hosted CI and a clean-room patient-level rerun have not been performed. Detailed teaching remains next, before paper writing, as requested.

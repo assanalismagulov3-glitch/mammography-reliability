@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "release_date": "2026-10-01",
-  "scope": "Files explicitly included in the GitHub-ready source-and-aggregate archive; manifest excludes itself.",
+  "scope": "Audited source-and-aggregate package with October 5 hosting-status documentation and remote verification record; manifest excludes itself.",
   "files": {
     ".gitattributes": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c",
     ".gitignore": "f9ddf64fdd873038e574ea112430883149db185c9183e513cad542ce8faffe63",
-    "AI_ASSISTANCE.md": "a5ed5b1030ee01edf0edf55da4c758671efd336822bc2fc11357f7c2c3680bb0",
+    "AI_ASSISTANCE.md": "3f164d73f0fca473408d7685c709d4b5060efa75f8c98584e42830f57bba4ab9",
     "DEVELOPMENT_DECISIONS.md": "b4cec56b5af17e2bd0f44d1730d0dd8b8718897269d31c95017df4e467a0b3da",
     "FIXED_GMIC_FINAL_PROTOCOL.md": "111d96f4810ef9083d6ca529f49b0bb7de3d9057908fce7e7555df52edf1310a",
     "FIXED_GMIC_FINAL_RESULTS.md": "8fbc1f0eb561140f76a86dce4955c337d63642951c31337f65d94b228544b3f4",
@@ -19,10 +19,10 @@
     "README_DEVELOPMENT_HISTORY.md": "c7d80e1effb37a4fbaea37b7ffba484a4a9647d1a313b1abe8d5aca47bff1466",
     "RELATED_WORK_ADDENDUM_2026_10_01.md": "2a736f4fa29a1a12b7c4ebbc2cdfc78ed3e90e3d58de62029f359c80ede6da12",
     "RELATED_WORK_DECISION_2026_09_28.md": "675045b6019b597dc32fe0c155a823a91323e5f1075369978803360bed4e9fc3",
-    "RELEASE_CONTENTS.md": "71df107dec19caa76e22487abed8fe8e45cfa80ba1b7539437f76bd24a7f8c51",
+    "RELEASE_CONTENTS.md": "1e454c9b32ee19236bbe05d93fd2d3b6eb4ff79e1351cc906401d934f67ceb1c",
     "REPRODUCIBILITY.md": "114aa8809b86c4a1972467c3128c28047b2f3dca085b4cd6a7336811a9133333",
     "SOURCES.md": "707423284b472f383ae8db3d72ec2b52f44ae2237963e79db2f7acc6ebfe10d8",
-    "STATUS.md": "1194f1d4da7cecb3e6ef76fce8f60282b35c3529e0d509a2540597ac8e48f738",
+    "STATUS.md": "8bfea414846deadfcb075017aa7b4b0bbce990969a3e723ebb41f23ab3a24071",
     "STUDY_EXPLANATION.md": "402e7103e11a0806b85c31bd6294f05f95708f0139ac3ec78bd0c75926cd4de3",
     "THIRD_PARTY_NOTICES.md": "0ca40e32e7ee3afb573820e4270ad96c1ad840ae91b693ae55501a909e1e4645",
     "THRESHOLD_STABILITY_PLAN.md": "84df62ce1cf7a8448ad4d19d8d7ae55259a672c87141593821b97b6b5008470b",
@@ -125,8 +125,10 @@
     "validation/fixed_gmic_cpu_verification_20260929.json": "77d645f00a0ee5c0fd190f13102865eef5cf7cc4074c84a4ac0663fa850d2ab6",
     "validation/fixed_gmic_final_result_verification_20261001.json": "2abb4cdf2c0508be7f5b6920c14bc0c6fc76cd33aac9e5e3c444e114b8ef9dd0",
     "validation/fixed_gmic_final_results_20261001.json": "39a10c9ea23d943fc8b11a2a3729a2e5b89e91a375ad43657382f1f5a5d7931e",
-    "validation/release_audit.json": "973b6c0b2e3a08b02eaa5a7adac5742402d8f264b6af3d4e60ad50bd1e834232",
+    "validation/github_upload_verification_20261005.json": "6acc4fe2dfa77aa530022b5cdbb025888c165db4cde1ab4101283feabd38a570",
+    "validation/release_audit.json": "3de65a6dbbcd669432eaea2818c086fd38e5124874fb250cc1d039ff8c48dec9",
     "validation/release_environment.json": "1074ee9ad38843112ede18aa8e6138ef10ef871b090762b03bb2b66bad0cba82",
-    "validation/release_provenance.json": "a30136f0e4078d54071c1a19d3a113fcd19074937929d65938e797996e7af555"
-  }
+    "validation/release_provenance.json": "e9f8eccf1803ec3d243a23ae9662ccd78661f141389dee8315ba0e5905e7ec7c"
+  },
+  "hosting_status_updated": "2026-10-05"
 }

@@ -1,4 +1,4 @@
-# Execution status — 2026-10-01
+# Execution status — 2026-10-05
 
 ## Current state
 
@@ -10,9 +10,9 @@
 - The report retains all six methods at 1%, 5%, 10% and 20% budgets, exact subgroup denominators, both intervals, probability-quality diagnostics and limitations. The complete curve, calibration bins and subgroup records remain in the aggregate JSON.
 - The original 32 frozen scientific/configuration/protocol files and five calibration/cohort artifacts remain unchanged. The holdout is now opened and must not be reused as untouched evaluation data for a revised score.
 - Original complete outputs remain in their private Kaggle versions. Full aggregate JSON and all 4,000 bootstrap rows were additionally saved and checked. `validation/fixed_gmic_final_result_verification_20261001.json` records extraction completeness, identities and interval reproduction.
-- The October 1 upload/import succeeded after the user's explicit continuation; the September 30 approval block is historical and resolved. No paper or public/GitHub release occurred.
+- The October 1 private Kaggle upload/import succeeded after the user's explicit continuation; the September 30 approval block is historical and resolved. The audited source-and-aggregate package was uploaded to the owner's private GitHub repository on October 5. No manuscript or public release has occurred.
 
-## Practical release preparation — 2026-10-01
+## Practical release completed — 2026-10-05
 
 The user requested completion of the practical package and GitHub upload, with detailed explanations deferred until before paper writing. Teaching or quizzes are not a release prerequisite. No manuscript is being drafted in this step.
 
@@ -20,11 +20,15 @@ The user requested completion of the practical package and GitHub upload, with d
 |---|---|---|
 | Figures and tables | Complete | Three figures in PDF/SVG/PNG; six table sections; both intervals reproduced from all 4,000 saved draws. |
 | Reproducible source and release audit | Complete | Audited source-and-aggregate archive; all 32 frozen source hashes and five private artifact hashes unchanged; 18 tests pass; reproduction succeeds from the staged release. |
-| GitHub upload and remote verification | Pending access | Installation/connection is not confirmed; no remote repository, commit or upload is claimed. |
+| GitHub upload and remote verification | Complete | All 126 original release files downloaded from GitHub match the audited stage byte-for-byte; all 125 manifest digests and 32 frozen scientific digests pass. |
 
-The main experiment has zero steps remaining. **One practical step remains: GitHub upload and remote verification.** Detailed teaching and paper writing follow practical completion. The literature review is complete for cautious empirical framing, with its documented access limits and no established novelty claim.
+The main experiment and practical release have **zero steps remaining**. Detailed teaching comes next, before paper writing. The literature review is complete for cautious empirical framing, with its documented access limits and no established novelty claim.
+
+Repository: https://github.com/assanalismagulov3-glitch/mammography-reliability (private). The original package was independently checked at commit `1bc39f08896bdb6fbbb8dc001247be3b2475f2a0`; `validation/github_upload_verification_20261005.json` records the downloaded archive digest and exact verification scope. Subsequent hosting-status documentation updates preserve all frozen files and original aggregate results. Hosted CI and a clean-room patient-level rerun are not claimed.
 
 ## Historical implementation and execution record
+
+The entries below describe earlier checkpoints. Their pending-work statements are historical; the current state and practical-release table above supersede them.
 
 - Continued from the student's existing RSNA audit; preserved the reported aggregates with their provenance.
 - Implemented metadata validation, density auditing, patient partitions, pixel decoding/auditing, a breast-level CNN, ensemble inference, calibration, false-negative review comparisons, subgroup accounting, and paired patient bootstrap.
@@ -50,11 +54,13 @@ The main experiment has zero steps remaining. **One practical step remains: GitH
 - Recorded all 11 development epochs and both completed model summaries from the versioned visible log. The 1024 × 768 pilot selected epoch 3 by average precision (AP 0.02316; ROC-AUC 0.4890). The 1536 × 1152 pilot selected epoch 2 (AP 0.02528; ROC-AUC 0.5525). The tuning set has 26 positive breasts among 1,192. These weak, selected development results are not final research estimates.
 - Prepared a separate diagnostic using only reserved pilot patients. It checks inputs and initial floating-point behavior, attempts to memorize 16 fitting breasts, fits a frozen-feature linear probe, and conditionally runs one stability trial. Local notebook schema, Python syntax, embedded source identity, and deterministic fitting-subset isolation checks passed. GPU behavior is verified on Kaggle, not locally.
 
-## Later work
+## Work after practical completion
 
 - Review the code, frozen design and final findings with the student so they can explain and defend the work.
 - Use the October 1 literature addendum for empirical manuscript framing. Any stronger novelty claim would require further evidence and resolution of relevant access limits.
-- Complete the four preparation blocks above, retaining the inconclusive primary result and unfavorable secondary comparisons; review the concrete eventual public release separately.
+- After the methods/results discussion, prepare the manuscript while retaining the inconclusive primary result and unfavorable secondary comparisons. Any eventual change from private to public repository visibility remains a separate decision.
+
+## Earlier development checkpoints (historical)
 
 Earlier local software validation used CPU PyTorch. The current local runtime has no PyTorch or CUDA; the real-data GPU work runs in private Kaggle notebooks. Exact historical audit packages and engineering measurements are recorded in `validation/kaggle_technical_preflight.json`; completed pilot environments are in `validation/kaggle_development_status.json`.
 
