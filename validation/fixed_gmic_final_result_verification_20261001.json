@@ -1,0 +1,58 @@
+{
+  "verified_at_utc": "2026-10-01T11:56:46.781793+00:00",
+  "status": "complete_aggregate_extraction_and_draw_verification_passed",
+  "source_script_version_id": 354389561,
+  "source_private": true,
+  "extraction": "Complete raw JSON/CSV opened by the Kaggle file download control and copied from visible browser document text. CSV extracted in 50,000-character DOM chunks to avoid the browser tool 200,000-character return limit. No recomputation of final model outputs.",
+  "rows": {
+    "classification": 6,
+    "calibration": 18,
+    "calibration_bins": 120,
+    "review": 126,
+    "subgroup_review": 120,
+    "selection_overlap": 21,
+    "bootstrap_draws": 4000
+  },
+  "primary_and_bootstrap_match_original_log": true,
+  "bootstrap_checks": {
+    "conditional": {
+      "rows": 2000,
+      "unique_draws": 2000,
+      "all_status_ok": true,
+      "ci95_reproduced_from_saved_draws": [
+        -0.13793103448275862,
+        0.08108108108108109
+      ]
+    },
+    "calibration_inclusive": {
+      "rows": 2000,
+      "unique_draws": 2000,
+      "all_status_ok": true,
+      "ci95_reproduced_from_saved_draws": [
+        -0.14285714285714285,
+        0.08
+      ]
+    }
+  },
+  "files": {
+    "fixed_gmic_final_results_20261001.json": {
+      "bytes": 164862,
+      "sha256": "39a10c9ea23d943fc8b11a2a3729a2e5b89e91a375ad43657382f1f5a5d7931e"
+    },
+    "fixed_gmic_bootstrap_draws_20261001.csv": {
+      "bytes": 379411,
+      "sha256": "6aabbecb3dab9a6e33f2a77b281498d36d6f79b5f3186aeb7780cbbf80289038"
+    },
+    "kaggle_fixed_gmic_analysis_completed_20261001.json": {
+      "bytes": 7060,
+      "sha256": "419cf0bef85f1ea7758dcd76ce204df994a25de384f6afd9994c981d0e628f02"
+    },
+    "kaggle_fixed_gmic_analysis_complete_20261001.jpg": {
+      "bytes": 127229,
+      "sha256": "8ac3634211fa1d5b97544ea08a8c0639e4e7b331eabcb6a85e3062a9d5150cde"
+    }
+  },
+  "original_private_kaggle_outputs_preserved": true,
+  "local_bulk_archive_obtained": false,
+  "all_patient_level_outputs_remain_private_in_original_Kaggle_versions": true
+}

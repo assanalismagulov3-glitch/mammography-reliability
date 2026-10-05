@@ -1,0 +1,14 @@
+{
+  "purpose": "Actual CPU release verification and aggregate reporting environment; not the historical GPU environment",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "Pillow": "12.3.0"
+  },
+  "gpu_inference_run": false
+}

@@ -1,0 +1,74 @@
+{
+  "status": "passed",
+  "release_date": "2026-10-01",
+  "source_files_and_artifacts_checked": {
+    "frozen_source_files": 32,
+    "private_rule_files_verified_but_excluded": 5
+  },
+  "allowlisted_files_before_audit": 124,
+  "unit_tests": {
+    "run": 18,
+    "errors": 0,
+    "failures": 0,
+    "command": "python -m unittest discover -s tests -p 'test_fixed_gmic_*.py' -v"
+  },
+  "aggregate_checks": {
+    "status": "passed",
+    "bootstrap": {
+      "calibration_inclusive": {
+        "draws": 2000,
+        "ci95_reproduced": [
+          -0.14285714285714285,
+          0.08
+        ]
+      },
+      "conditional": {
+        "draws": 2000,
+        "ci95_reproduced": [
+          -0.13793103448275862,
+          0.08108108108108109
+        ]
+      }
+    },
+    "review_rows_checked": 126
+  },
+  "figure_quality": {
+    "pdfs_rendered_and_visually_inspected": 3,
+    "formats": [
+      "pdf",
+      "svg",
+      "png"
+    ],
+    "png_dpi": 300
+  },
+  "restricted_content_checks": {
+    "private_directories_excluded": true,
+    "medical_images_excluded": true,
+    "patient_level_tables_excluded": true,
+    "raw_logs_and_screenshots_excluded": true,
+    "private_final_notebooks_excluded": true,
+    "weights_and_upstream_source_excluded": true,
+    "secret_pattern_findings": 0,
+    "output_free_historical_notebooks": [
+      "rsna_cache_part_0.ipynb",
+      "rsna_cache_part_1.ipynb",
+      "rsna_development_balanced.ipynb",
+      "rsna_development_diagnostics.ipynb",
+      "rsna_development_pilots.ipynb",
+      "rsna_gmic_fullfield_preflight.ipynb",
+      "rsna_gmic_operating_point.ipynb",
+      "rsna_gmic_preflight.ipynb",
+      "rsna_gmic_reserved_pilot.ipynb",
+      "rsna_pilot_preparation.ipynb",
+      "rsna_reliability_workflow.ipynb"
+    ]
+  },
+  "limitations": [
+    "Automated pattern checks supplement explicit source selection; they are not a universal privacy proof.",
+    "Full GPU inference was not rerun.",
+    "Full private-artifact reconstruction was not tested.",
+    "GitHub remote upload and hosted CI have not run."
+  ],
+  "staged_aggregate_reproduction": "passed",
+  "github_ready_archive": "mammography_reliability_github.zip"
+}

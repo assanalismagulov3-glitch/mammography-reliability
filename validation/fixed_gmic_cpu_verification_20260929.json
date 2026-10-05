@@ -1,0 +1,2 @@
+{"status": "fixed_gmic_cpu_verification_passed", "tests_run": 18, "parity": {"pooling_reproduced": true, "historical_tune_classification_reproduced": true, "review_comparisons_reproduced": 24, "all_six_scores_reproduced": true, "historical_raw_cutoff": 0.029317490197718, "historical_tune_false_negatives": 8}, "cohort_matched": true, "calibration_rule_unchanged": true, "freeze_sha256": "6cdc4c4f976c54b751eb15b85c9a1d1fa1db6877a554c6cb4ac468963c35b0ef", "final_inference_started": false, "final_model_outcomes_evaluated": false}
+
