@@ -51,10 +51,15 @@
   "reporting_is_post_outcome": true,
   "private_artifacts_redistributed": false,
   "new_gpu_inference_for_release": false,
-  "github_upload_completed": false,
+  "github_upload_completed": true,
   "limitations": [
     "Patient-level original execution depends on private artifacts and authorized data.",
     "No clean-room end-to-end reproduction from the public archive alone was run.",
     "No project open-source license grant is made in this release."
-  ]
+  ],
+  "github_upload_date": "2026-10-05",
+  "github_repository": "https://github.com/assanalismagulov3-glitch/mammography-reliability",
+  "github_visibility": "private",
+  "github_original_release_verified_commit": "1bc39f08896bdb6fbbb8dc001247be3b2475f2a0",
+  "github_verification_record": "validation/github_upload_verification_20261005.json"
 }

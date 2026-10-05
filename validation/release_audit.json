@@ -67,8 +67,17 @@
     "Automated pattern checks supplement explicit source selection; they are not a universal privacy proof.",
     "Full GPU inference was not rerun.",
     "Full private-artifact reconstruction was not tested.",
-    "GitHub remote upload and hosted CI have not run."
+    "At the October 1 audit, remote upload had not run; October 5 remote verification is recorded below. Hosted CI has not run."
   ],
   "staged_aggregate_reproduction": "passed",
-  "github_ready_archive": "mammography_reliability_github.zip"
+  "github_ready_archive": "mammography_reliability_github.zip",
+  "github_remote_verification": {
+    "date": "2026-10-05",
+    "status": "passed",
+    "original_release_file_count": 126,
+    "manifest_file_digests_checked": 125,
+    "frozen_source_files_unchanged": 32,
+    "verified_commit": "1bc39f08896bdb6fbbb8dc001247be3b2475f2a0",
+    "record": "validation/github_upload_verification_20261005.json"
+  }
 }
