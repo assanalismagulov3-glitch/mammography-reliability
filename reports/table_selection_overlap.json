@@ -1,0 +1,107 @@
+[
+  {
+    "budget": 0,
+    "common_breasts": 0,
+    "common_patients": 0
+  },
+  {
+    "budget": 0.01,
+    "common_breasts": 17,
+    "common_patients": 17
+  },
+  {
+    "budget": 0.02,
+    "common_breasts": 48,
+    "common_patients": 49
+  },
+  {
+    "budget": 0.03,
+    "common_breasts": 87,
+    "common_patients": 88
+  },
+  {
+    "budget": 0.04,
+    "common_breasts": 118,
+    "common_patients": 119
+  },
+  {
+    "budget": 0.05,
+    "common_breasts": 163,
+    "common_patients": 163
+  },
+  {
+    "budget": 0.06,
+    "common_breasts": 211,
+    "common_patients": 213
+  },
+  {
+    "budget": 0.07,
+    "common_breasts": 259,
+    "common_patients": 263
+  },
+  {
+    "budget": 0.08,
+    "common_breasts": 312,
+    "common_patients": 316
+  },
+  {
+    "budget": 0.09,
+    "common_breasts": 368,
+    "common_patients": 373
+  },
+  {
+    "budget": 0.1,
+    "common_breasts": 430,
+    "common_patients": 432
+  },
+  {
+    "budget": 0.11,
+    "common_breasts": 489,
+    "common_patients": 488
+  },
+  {
+    "budget": 0.12,
+    "common_breasts": 554,
+    "common_patients": 550
+  },
+  {
+    "budget": 0.13,
+    "common_breasts": 609,
+    "common_patients": 599
+  },
+  {
+    "budget": 0.14,
+    "common_breasts": 672,
+    "common_patients": 658
+  },
+  {
+    "budget": 0.15,
+    "common_breasts": 739,
+    "common_patients": 725
+  },
+  {
+    "budget": 0.16,
+    "common_breasts": 804,
+    "common_patients": 790
+  },
+  {
+    "budget": 0.17,
+    "common_breasts": 875,
+    "common_patients": 858
+  },
+  {
+    "budget": 0.18,
+    "common_breasts": 946,
+    "common_patients": 928
+  },
+  {
+    "budget": 0.19,
+    "common_breasts": 1018,
+    "common_patients": 993
+  },
+  {
+    "budget": 0.2,
+    "common_breasts": 1093,
+    "common_patients": 1063
+  }
+]

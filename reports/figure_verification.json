@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "bootstrap": {
+    "calibration_inclusive": {
+      "draws": 2000,
+      "ci95_reproduced": [
+        -0.14285714285714285,
+        0.08
+      ]
+    },
+    "conditional": {
+      "draws": 2000,
+      "ci95_reproduced": [
+        -0.13793103448275862,
+        0.08108108108108109
+      ]
+    }
+  },
+  "review_rows_checked": 126
+}
