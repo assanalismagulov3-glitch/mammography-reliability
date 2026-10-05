@@ -1,0 +1,112 @@
+{
+  "date": "2026-09-28",
+  "review_type": "targeted primary-source comparison, not systematic review",
+  "retrieval_methods": [
+    "both available web search engines",
+    "primary publisher/arXiv/conference pages",
+    "reference chaining from CEI-Net and failure-detection literature",
+    "public PDF retrieval and local text/figure inspection"
+  ],
+  "final_verification_batch": {
+    "engine": "system1",
+    "requested_queries": [
+      {
+        "q": "mammography \"false negative\" \"uncertainty\" \"review\""
+      },
+      {
+        "q": "mammography \"view disagreement\" uncertainty"
+      },
+      {
+        "q": "\"SafeRecall\" mammography",
+        "recency": 365
+      },
+      {
+        "q": "\"When Views Disagree\" mammography",
+        "recency": 365
+      }
+    ],
+    "result_observation": "CEI-Net official page and PDF confirmed; broad queries also returned general-information and unrelated results. No paper-specific absence conclusion is drawn.",
+    "counts": "No deduplicated screening count or PRISMA count recorded."
+  },
+  "earlier_search_record": "Earlier searches covered mammography uncertainty triage, false negatives, CC/MLO disagreement, selective prediction, evidential fusion and failure-detection benchmarks. This file records the exact final verification batch only and does not reconstruct unretained query strings.",
+  "selection": "Closest primary sources prioritized for endpoint, signal and evaluation overlap. General health pages, dictionary hits and unrelated ML applications excluded from technical evidence.",
+  "source_inventory": [
+    {
+      "id": "verboom2025",
+      "url": "https://pubs.rsna.org/doi/10.1148/radiol.242594",
+      "access": "main methods/results/limitations",
+      "limit": "supplement unavailable; metric definitions there not verified"
+    },
+    {
+      "id": "ceinet2026",
+      "url": "https://papers.miccai.org/miccai-2026/1158-Paper2986.html",
+      "pdf_url": "https://papers.miccai.org/miccai-2026/paper/2986_paper.pdf",
+      "access": "official accepted main paper pages 1-9; references pages 10-11; figures/tables on pages 7-8 visually inspected",
+      "sha256": "d41037a35bd3aca0d264ee17b6ebceeee8d77ca1080b0eebf456e932bb9d6344",
+      "bytes": 24232108,
+      "limit": "landing-page reviewer opinions not treated as research findings"
+    },
+    {
+      "id": "mm2023",
+      "url": "https://arxiv.org/abs/2308.06420",
+      "pdf_url": "https://arxiv.org/pdf/2308.06420",
+      "access": "main methods/results/discussion pages 1-9; table page 6 visually inspected",
+      "sha256": "65ebbbaf21ce05779ad0860272cb491eae846b7df5854d9cc850afbcf0d1b9f8",
+      "bytes": 12623148,
+      "limit": "appendix not fully assessed; supersedes earlier abstract-only access record"
+    },
+    {
+      "id": "woo2025",
+      "url": "https://pubs.rsna.org/doi/10.1148/radiol.242408",
+      "access": "main methods/results and retrospective review description"
+    },
+    {
+      "id": "rsna2026",
+      "url": "https://pubs.rsna.org/doi/10.1148/ryai.250375",
+      "access": "dataset methods/limitations rechecked"
+    },
+    {
+      "id": "lu2021",
+      "url": "https://arxiv.org/html/2107.02716v2",
+      "access": "main methods/results; supersedes abstract-only record"
+    },
+    {
+      "id": "gmic2020",
+      "url": "https://arxiv.org/html/2002.07613v1",
+      "access": "five-model selection description rechecked; prior source/methods review retained"
+    },
+    {
+      "id": "jaeger2023",
+      "url": "https://arxiv.org/html/2211.15259v2",
+      "access": "main failure-detection formulation/recommendations; Appendix B/F excerpts",
+      "limit": "does not validate our specific score or resampling implementation"
+    },
+    {
+      "id": "saferecall2026",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7324281",
+      "access": "indexed author abstract only",
+      "limit": "full-page error and PDF 403; detailed methods and peer review not verified"
+    },
+    {
+      "id": "gudhe2024",
+      "url": "https://doi.org/10.1109/ACCESS.2024.3399204",
+      "access": "citation-chain bibliographic identification via publisher/institution record",
+      "limit": "full text not reviewed; separate under-review manuscript not called accepted ICLR work"
+    },
+    {
+      "id": "medical_failure_benchmark2026",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.05.04.26350496v2.full",
+      "access": "search-index discovery only",
+      "limit": "page retrieval failed; not used to make mammography-method claims"
+    },
+    {
+      "id": "chen2022",
+      "url": "https://arxiv.org/pdf/2209.10478",
+      "access": "prior main-text review retained from working review",
+      "limit": "not newly re-read in full on this date"
+    }
+  ],
+  "access_caveat": "Successful search-index retrieval is distinguished from examined full text. No exhaustive bibliographic database search is claimed.",
+  "novelty_established": false,
+  "source_pdfs_redistributed": false
+}

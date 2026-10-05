@@ -1,0 +1,7 @@
+# Direct dependencies verified for aggregate reports and the 18 fixed-GMIC CPU tests.
+# Python 3.12. This is not the historical GPU environment or a full transitive lock.
+numpy==2.3.5
+pandas==2.2.3
+scipy==1.17.0
+scikit-learn==1.8.0
+matplotlib==3.10.8

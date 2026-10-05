@@ -1,0 +1,149 @@
+{
+  "date": "2026-10-01",
+  "review_type": "Targeted primary-source comparison and post-outcome manuscript framing; not a systematic review",
+  "predecessor": "literature_search_log_2026_09_28.json",
+  "decision_document": "RELATED_WORK_ADDENDUM_2026_10_01.md",
+  "final_outcomes_known": true,
+  "scientific_protocol_changed": false,
+  "search_queries": [
+    {
+      "engine": "system1",
+      "q": "\"SafeRecall\" mammography",
+      "recency": 365
+    },
+    {
+      "engine": "system1",
+      "q": "\"10.1109/ACCESS.2024.3399204\""
+    },
+    {
+      "engine": "system1",
+      "q": "\"AI Should Read Mammograms Only When Confident\" supplement"
+    },
+    {
+      "engine": "system1",
+      "q": "mammography \"false negative\" uncertainty referral disagreement",
+      "recency": 730
+    },
+    {
+      "engine": "system2",
+      "q": "\"SafeRecall\""
+    },
+    {
+      "engine": "system2",
+      "q": "\"A Multi-View Deep Evidential Learning Approach\" pdf"
+    },
+    {
+      "engine": "system2",
+      "q": "\"AI Should Read Mammograms Only When Confident\" supplementary"
+    },
+    {
+      "engine": "system1",
+      "q": "\"7324281\" \"SafeRecall\""
+    },
+    {
+      "engine": "system1",
+      "q": "\"A Multi-View Deep Evidential Learning Approach\" site:erepo.uef.fi"
+    },
+    {
+      "engine": "system1",
+      "q": "\"An evidential deep learning framework for\" mammogram"
+    },
+    {
+      "engine": "system1",
+      "q": "\"mammography\" \"false-negative\" \"uncertainty\" \"disagreement\"",
+      "recency": 730
+    },
+    {
+      "engine": "system1",
+      "q": "\"mammography\" \"selective prediction\" \"ensemble\"",
+      "recency": 730
+    },
+    {
+      "engine": "system1",
+      "q": "\"SafeRecall\" \"BI-RADS\""
+    },
+    {
+      "engine": "system2",
+      "q": "mammography uncertainty failure detection false negatives multi view disagreement selective prediction"
+    },
+    {
+      "engine": "system2",
+      "q": "SafeRecall mammography 7324281"
+    }
+  ],
+  "query_record_scope": "Exact retained searches from this continuation. Search result counts were not deduplicated or recorded as a screening flow.",
+  "selection_rule": "Prioritize endpoint, uncertainty/referral, view-conflict and baseline overlap. Exclude general health pages, dictionary hits and unrelated ML applications from technical evidence.",
+  "source_access_updates": [
+    {
+      "id": "verboom2025",
+      "url": "https://pubs.rsna.org/doi/10.1148/radiol.242594",
+      "access": "Main methods and comparator description rechecked.",
+      "supplement_url": "https://pubs.rsna.org/doi/suppl/10.1148/radiol.242594/suppl_file/ry242594suppa1.pdf",
+      "supplement_access": "PDF pages 1–4 visually inspected via successful web screenshots, including Appendix S1 and beginning of Appendix S2.",
+      "supplement_pages_total": 13,
+      "supplement_full_review": false,
+      "failures": "Intermittent web text/page timeouts; direct public HTTP download returned 403. Later page rendering succeeded.",
+      "sha256": null,
+      "limit": "No complete local PDF obtained; no independent numerical reproduction of supplemental metrics."
+    },
+    {
+      "id": "gudhe2024",
+      "doi": "10.1109/ACCESS.2024.3399204",
+      "title": "A Multi-View Deep Evidential Learning Approach for Mammogram Density Classification",
+      "publisher_url": "https://ieeexplore.ieee.org/document/10528291/",
+      "publisher_pdf_url": "https://ieeexplore.ieee.org/iel7/6287639/10380310/10528291.pdf",
+      "examined_full_text_url": "https://www.researchgate.net/publication/380470401_A_Multi-view_deep_evidential_learning_approach_for_mammogram_density_classification",
+      "bibliographic_corroboration": "https://www.behravans.com/publications/",
+      "access": "Published-paper transcription: abstract, evidential feature/fusion/learning sections and results C–F. DOI/title/authors/journal pagination match the identified paper.",
+      "failures": "IEEE landing rendered no substantive full text; IEEE PDF returned 418. Research Square preprint PDF timed out and was not substituted for the published paper.",
+      "limit": "Not every table was visually inspected; no numerical reproduction or claim of complete line-by-line review.",
+      "sha256": null
+    },
+    {
+      "id": "ceinet2026",
+      "url": "https://papers.miccai.org/miccai-2026/1158-Paper2986.html",
+      "access": "Official accepted-paper page and abstract rechecked. September 28 main-PDF review retained.",
+      "limit": "Reviewer comments are not treated as independent research results."
+    },
+    {
+      "id": "saferecall2026",
+      "title": "SafeRecall: A BI-RADS-Guided Uncertainty Framework for Safe Mammography Recall Reduction",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7324281",
+      "delivery_url": "https://papers.ssrn.com/sol3/Delivery.cfm/0d5b601c-b1ab-4455-b28e-a8f8d8b94648-MECA.pdf?abstractid=7324281&mirid=1",
+      "access": "Search-index author abstract and delivery-PDF hit only.",
+      "full_text_examined": false,
+      "limit": "Full-page/PDF retrieval failed. Detailed methods, outcome denominators, validation and publication status unverified. No numerical results adopted."
+    },
+    {
+      "id": "mmdc_clip_f2026",
+      "title": "MMDC-CLIP-F: Vision-language multi-view mammogram density classification with uncertainty assessment",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0925231226021934",
+      "access": "Publisher-indexed discovery only; direct page returned 403.",
+      "full_text_examined": false,
+      "limit": "Retained as an access-limited lead; not used for precise technical comparison."
+    },
+    {
+      "id": "medical_failure_benchmark2026",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.05.04.26350496v2.full",
+      "access": "September 28 discovery-only status retained; not newly retrieved.",
+      "full_text_examined": false
+    }
+  ],
+  "inherited_review": "September 28 examined-source record retained for M&M, Lu, Jaeger, Woo, GMIC and the RSNA dataset. Do not interpret this log as a new full review of every inherited source.",
+  "retrieval_limitations": [
+    "Some constrained queries returned irrelevant general-information pages.",
+    "Web-search coverage and failed retrieval cannot establish absence of competing studies.",
+    "No exhaustive bibliographic database search or PRISMA-style accounting was performed.",
+    "Indexed abstract access is distinguished from examined full text."
+  ],
+  "preparation_block": {
+    "name": "Closest-literature comparison and defensible contribution",
+    "status": "complete_for_bounded_empirical_framing",
+    "novelty_established": false,
+    "unresolved_leads_remain": true,
+    "remaining_preparation_blocks": 4,
+    "remaining_main_experiment_steps": 0
+  },
+  "preserved_protocol": "RELATED_WORK_DECISION_2026_09_28.md and all frozen scientific files remain historical, unchanged records.",
+  "redistribution": "No third-party full papers, patient-level data or images are added to the project archive."
+}

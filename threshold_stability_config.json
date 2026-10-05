@@ -1,0 +1,16 @@
+{
+  "purpose": "adaptive_development_threshold_stability",
+  "target_sensitivity": 0.9,
+  "review_budget": 0.05,
+  "bootstrap_repeats": 2000,
+  "alternative_splits": 100,
+  "alternative_split_evaluation_fraction": 0.25,
+  "calibration_bootstrap_seed": 20260928,
+  "evaluation_bootstrap_seed": 20260929,
+  "alternative_split_seed": 20261028,
+  "review_tie_seed": 20260909,
+  "bootstrap_strata": "site_id",
+  "split_strata": "site_id and patient_cancer",
+  "sampling_unit": "patient; both breasts retained together",
+  "final_test_results_opened": false
+}

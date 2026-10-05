@@ -1,0 +1,33 @@
+{
+  "observed_date": "2026-09-24",
+  "notebook": "10_rsna_gmic_fullfield_check",
+  "version": 2,
+  "script_version_id": 352360882,
+  "declared_plan_sha256": "94c490d11b274dedc01998942e9b0251ef73fbcdffdcb6e8d8d502174b92d81e",
+  "reviewer": "AI assistant, technical visual inspection; no radiologist review",
+  "engineering_visual_review_passed": true,
+  "images_reviewed": 20,
+  "sample_partition": "same deterministic pilot fitting images used by notebook 09",
+  "contact_sheets_reviewed": [
+    "contact_sheet_01_private.png",
+    "contact_sheet_02_private.png",
+    "contact_sheet_03_private.png",
+    "contact_sheet_04_private.png",
+    "contact_sheet_05_private.png"
+  ],
+  "observations": [
+    "All 20 original/model-input pairs inspected at contact-sheet scale.",
+    "No visible full-image boundary exclusion, blank output, or gross grayscale inversion in these pairs.",
+    "Model inputs consistently present the chest wall on the left in these examples.",
+    "Sample 11 now retains the visible breast; the original fixed window was largely background.",
+    "Substantial background and small breast areas remain in some acquisitions, including samples 5 and 16."
+  ],
+  "limitations": [
+    "This is an engineering review of 20 images, not diagnostic or lesion-preservation validation.",
+    "Downscaling ranged from 0.3906408952187182 to 1; fine features can be lost.",
+    "Orientation is a heuristic; success on these examples does not validate the entire cohort.",
+    "No cancer predictions were judged and no RSNA cohort accuracy was used to select the repair."
+  ],
+  "allowed_next_stage": "reserved pilot transfer feasibility only",
+  "final_evaluation_unlocked": false
+}
