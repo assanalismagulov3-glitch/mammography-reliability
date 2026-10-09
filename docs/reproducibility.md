@@ -39,7 +39,7 @@ The 18 artificial-data unit tests check patient clustering, site counts, label i
 | Development-refit bootstrap seed | 20261001 |
 | Bootstrap | 2,000 paired patient draws per scheme, stratified by site |
 
-The exact rules are in `fixed_gmic_final_config.json` and `FIXED_GMIC_FINAL_PROTOCOL.md`. These are historical frozen records: their pre-execution status fields are intentionally unchanged. Current completion status is in `FIXED_GMIC_FINAL_RESULTS.md` and the aggregate result. The freeze followed adaptive development and was not a public preregistration. Five shards are computational partitions, not cross-validation folds or separately fitted models.
+The exact rules are in `fixed_gmic_final_config.json` and [frozen protocol](../FIXED_GMIC_FINAL_PROTOCOL.md). These are historical frozen records: their pre-execution status fields are intentionally unchanged. Current completion status is in [results](results.md) and the aggregate result. The freeze followed adaptive development and was not a public preregistration. Five shards are computational partitions, not cross-validation folds or separately fitted models.
 
 ## 3. Original private workflow
 
@@ -91,4 +91,4 @@ Original GMIC execution also needs its imageio, h5py, OpenCV, Pillow, DICOM deco
 
 ## 5. Data, attribution and limits
 
-See `THIRD_PARTY_NOTICES.md` and `RELEASE_CONTENTS.md`. This archive contains code, documentation and aggregate statistics, not medical images, patient identifiers/annotations, individual predictions, embedded private notebooks or model weights. Figures describe retrospective label-based flagging; no human-reader recovery or clinical benefit was measured.
+See [attribution](attribution.md) and [original release contents](archive/RELEASE_CONTENTS.md). This archive contains code, documentation and aggregate statistics, not medical images, patient identifiers/annotations, individual predictions, embedded private notebooks or model weights. Figures describe retrospective label-based flagging; no human-reader recovery or clinical benefit was measured.
