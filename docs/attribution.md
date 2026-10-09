@@ -26,4 +26,6 @@ The manifest records LICENSE Git-blob SHA-1 `29ebfa545f5580919a4e884d7014d7a3eb2
 
 No new open-source license grant is made by this release. Its first purpose is to archive and inspect the study's source and aggregate outputs. A deliberate author-approved code license can be added later, with upstream obligations respected; absence of a project license must not be described as permissive licensing. No authorship identity or copyright ownership has been invented for the repository.
 
-`AI_ASSISTANCE.md` records substantial assistant contributions to code, execution, analysis and documentation. Earlier unsuccessful experiments and technical adaptations are retained in `DEVELOPMENT_DECISIONS.md`, the implementation reports and the historical protocol. Neither this release nor the figures establish independent student mastery, novelty, diagnostic review or clinical suitability.
+OpenAI ChatGPT and Codex provided substantial assistance with study design, code generation and revision, operation of the private Kaggle workflows, technical image inspection, statistical analysis, literature assessment, figure preparation and manuscript drafting under the user's authorization. The human author's contribution statement should describe their actual work and responsibility for the final study.
+
+Earlier unsuccessful experiments and technical adaptations are retained in the [development archive](README.md#development-archive).
