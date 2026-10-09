@@ -58,4 +58,4 @@ The historical configuration's pre-run status fields remain intact for provenanc
 
 Medical images, dataset annotation rows, patient identifiers, individual predictions, weights and private final notebooks are excluded. Obtain RSNA data and GMIC materials from their official sources under the applicable terms. [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) records those sources and licensing boundaries; this release makes no new open-source license grant. [RELEASE_CONTENTS.md](RELEASE_CONTENTS.md) describes the audited package.
 
-Substantial assistant contributions are disclosed in [AI_ASSISTANCE.md](AI_ASSISTANCE.md). [Related-work review](RELATED_WORK_ADDENDUM_2026_10_01.md) supports cautious empirical framing, not established novelty. The [explanation guide](STUDY_EXPLANATION.md) is available for the detailed discussion before paper writing; it is not a release gate.
+ [Related-work review](RELATED_WORK_ADDENDUM_2026_10_01.md) supports cautious empirical framing, not established novelty. The [explanation guide](STUDY_EXPLANATION.md) is available for the detailed discussion before paper writing; it is not a release gate.
