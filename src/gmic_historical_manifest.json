@@ -1,0 +1,29 @@
+{
+  "commit": "febe2431dbe6efd75bcb37ddea85dc48c0df0b07",
+  "files": {
+    "README.md": "43f86e2104efae2321a7929c70423ac4c9deb842",
+    "run.sh": "2a61968fc6032255b439377eae529aac910b04ee",
+    "sample_data/cropped_images/0_L-CC.png": "7cd256cf1e963605365c8b57ebbb2860bd671b8e",
+    "sample_data/cropped_images/0_L-MLO.png": "45a7fed5e3aba7ae20fbcc33dea80e8ce8b98eac",
+    "sample_data/cropped_images/0_R-CC.png": "fa99f5e2e82177e32b5ba8ef2463e25e83015c0a",
+    "sample_data/cropped_images/0_R-MLO.png": "1be35c719c2cd1343181e2c8b2851906d82670ce",
+    "sample_data/cropped_images/1_L-CC.png": "468a9c77e591b70017055331677b2361091eaec2",
+    "sample_data/cropped_images/1_L-MLO.png": "df60bef584646edc2b21fb5100ec28f82938895f",
+    "sample_data/cropped_images/1_R-CC.png": "2d090efed2ac4ad53a426401406546d45d5ae346",
+    "sample_data/cropped_images/1_R-MLO.png": "c0e3dccfb3df4020b64be063bdb9b32a3d8cb277",
+    "sample_data/cropped_images/2_L-CC.png": "b598f6202f063494cbf0963f431fc5351ec55a8c",
+    "sample_data/cropped_images/2_L-MLO.png": "b1d46a6b13084bbcd97b08add7b8f50cf06e95e3",
+    "sample_data/cropped_images/2_R-CC.png": "fd92be32967a137a2168837a9b11e386b0c93f41",
+    "sample_data/cropped_images/2_R-MLO.png": "211f3c7f84de57a03e16f278f4abefcf3e55b982",
+    "sample_data/cropped_images/3_L-CC.png": "409d495d362517a4a6168ad7a047a18de0886b52",
+    "sample_data/cropped_images/3_L-MLO.png": "14e81fe755c968e5a017bfe4fc65e27a4a2ec441",
+    "sample_data/cropped_images/3_R-CC.png": "77508ab3494be0caa840592a14d25f66780cca14",
+    "sample_data/cropped_images/3_R-MLO.png": "fbb67d1506cc2e4a95f344ae3c61d68d3d8399fa",
+    "sample_data/data.pkl": "c5cda8816c66d7d3dc9b55e7ea99ed0f7d645fc3",
+    "src/data_loading/loading.py": "9aba98e5c6fb6027003106fbb099919b118bbdb4",
+    "src/scripts/run_model.py": "d32a0f62fc4ea2b65c3bbe944985ae183fb0ac5c"
+  },
+  "repository": "https://github.com/nyukat/GMIC",
+  "purpose": "Historical already-windowed author fixtures for unchanged README table",
+  "checkpoint_blobs_identical_to_current_commit": true
+}
