@@ -174,7 +174,7 @@ def write_tables(result, config, directory):
 
 **Figure 3. Review-capacity curves.** All six frozen methods across 21 budgets from 0% to 20%, evaluated on the same 39 AI-missed cancer-positive breasts. Points are joined for readability; no intermediate budgets or pointwise confidence intervals were estimated. The random-selection line is an expectation, not a simulated or observed comparator. The primary comparison remains the frozen 5% budget; other budgets are secondary. Cancer score is the calibrated malignant score; disagreement is absolute CC–MLO difference; variance is between-member population variance. Combined methods average the relevant development-reference percentile scores.
 
-These figures describe retrospective flagging against dataset labels. Human-reader recovery, clinical outcomes and interval-cancer detection were not measured. Source: validation/fixed_gmic_final_results_20261001.json and fixed_gmic_final_config.json; all figure/table generation was performed after the final outcomes were opened.
+These figures describe retrospective flagging against dataset labels. Human-reader recovery, clinical outcomes and interval-cancer detection were not measured. Source: validation/fixed_gmic_final_results_20261001.json and src/fixed_gmic_final_config.json; all figure/table generation was performed after the final outcomes were opened.
 ''')
 
 
@@ -187,7 +187,7 @@ def main():
     output = args.output or root / 'reports'
     output.mkdir(parents=True, exist_ok=True)
     result = json.loads((root / 'validation/fixed_gmic_final_results_20261001.json').read_text())
-    config = json.loads((root / 'fixed_gmic_final_config.json').read_text())
+    config = json.loads((root / 'src/fixed_gmic_final_config.json').read_text())
     verification = check_inputs(root, result)
     plt.rcParams.update({'font.family': 'DejaVu Sans', 'font.size': 10, 'pdf.fonttype': 42, 'ps.fonttype': 42, 'svg.hashsalt': 'fixed-gmic-20261001'})
     cohort_figure(result, config, output)
