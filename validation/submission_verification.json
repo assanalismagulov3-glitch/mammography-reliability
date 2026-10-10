@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-10",
+  "scope": "Local compact package validation before upload",
+  "synthetic_tests": {
+    "run": 18,
+    "failures": 0,
+    "errors": 0
+  },
+  "included_frozen_source_hashes": 29,
+  "full_historical_source_hashes_checked_locally": 32,
+  "aggregate_intervals_reproduced_from_saved_draws": 2,
+  "saved_bootstrap_draws": 4000,
+  "all_six_numeric_table_files_identical": true,
+  "relative_document_links_resolve": true,
+  "single_consolidated_assistance_disclosure": "CONTRIBUTIONS.md",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8"
+  },
+  "new_model_inference": false,
+  "new_patient_bootstrap": false,
+  "end_to_end_private_reproduction": false,
+  "remote_bytewise_validation_claimed": false
+}
