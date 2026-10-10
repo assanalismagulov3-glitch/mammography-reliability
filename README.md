@@ -1,46 +1,39 @@
-# Mammography reliability
+# Mammography Reliability
 
-Code and aggregate results from a retrospective RSNA study: does adding CC–MLO disagreement and between-model variation improve missed-cancer prioritization over cancer score alone at equal review capacity?
+**Review prioritization after a negative mammography classification**
 
-The study used five fixed, externally trained GMIC members, with 2,383 development patients and a separate holdout of 9,530 patients. No GMIC weights were trained on RSNA.
+I investigate whether CC–MLO disagreement and variation between fixed GMIC models help prioritize missed cancers beyond cancer score alone at the same review capacity.
 
-## Main result
+## Main finding
 
-Both methods selected **415 of 8,315 AI-negative breasts** at a 5% review budget. There were **39 missed cancer-positive breasts** in this pool.
+On a patient-separated holdout of **9,530 patients / 19,060 breasts**, the classifier missed 39 cancer-positive breasts. Each method selected **415 of 8,315 classifier-negative breasts** for potential review.
 
 | Review score | Misses flagged | Capture |
 |---|---:|---:|
 | Cancer score alone | 3 / 39 | 7.69% |
 | Combined score | 2 / 39 | 5.13% |
 
-Combined minus cancer-score capture: **−2.56 percentage points**, paired patient-bootstrap 95% CI **[−13.79, +8.11]**. Added benefit remains inconclusive; equivalence and clinical benefit were not established.
+The difference was **−2.56 percentage points** (primary 95% patient-bootstrap CI: **−13.79 to +8.11**). This experiment did not establish incremental benefit; it does not demonstrate equivalence or clinical recovery.
 
-[Results and limitations](docs/results.md) · [Tables](reports/TABLES.md) · [Figures](reports/)
+![Primary comparison](reports/figure_2_primary_comparison.png)
 
-## Reproduce the aggregate results
+## Read and reproduce
 
-Python 3.12; no medical data or GPU required:
+| Material | Contents |
+|---|---|
+| [Study summary](STUDY.md) | Question, methods, findings and limitations |
+| [Reproducibility](REPRODUCIBILITY.md) | Verified commands and original execution archive |
+| [Source](src/) and [tests](src/tests/) | Unchanged final-study implementation and synthetic checks |
+| [Figures and tables](reports/) | Three figures, captions and all secondary results |
+| [Validation records](validation/) | Aggregate outputs, bootstrap draws and provenance |
+| [Contributions](CONTRIBUTIONS.md) | Complete contribution and assistance disclosure |
+| [Data and credits](THIRD_PARTY_NOTICES.md) | Dataset access, upstream model and licensing |
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate
 python -m pip install -r requirements-report.txt
 python scripts/verify_release.py
-python -m unittest discover -s tests -p 'test_fixed_gmic_*.py' -v
+PYTHONPATH=src python -m unittest discover -s src/tests -p 'test_fixed_gmic_*.py' -v
 python scripts/make_release_figures.py --output reproduced_reports
 ```
 
-These commands verify the release, run 18 synthetic-data checks and regenerate figures/tables from saved aggregate outputs. Patient-level inference needs separately authorized data and private artifacts; see [reproducibility](docs/reproducibility.md).
-
-## Repository map
-
-| Location | Contents |
-|---|---|
-| `fixed_gmic_*.py`, `gmic_*.py`, `mammo_reliability/` | Evaluation, inference, preprocessing and original development code |
-| `scripts/`, `tests/` | Aggregate reporting, integrity checks and tests |
-| `reports/`, `validation/` | Figures, tables, aggregate results, bootstrap draws and provenance |
-| [docs/](docs/README.md) | Methods, results, reproduction, attribution and archived development notes |
-
-Four protocol/plan documents remain at their original root paths because the frozen or historical code reads them directly. Scientific code and original numerical outputs are unchanged by the documentation reorganization.
-
-[Data, upstream credits and assistance](docs/attribution.md). No patient-level data or model weights are distributed.
+This repository is the code-and-results companion to the research manuscript. It reproduces aggregate reporting; original patient-level execution requires authorized data and private artifacts. Historical notebooks and working logs remain in Git history. No patient records, images or model weights are distributed.
